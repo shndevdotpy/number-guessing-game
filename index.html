@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="all">
+        <div class="container">
+            <h1>Number Guessing Game</h1>
+            <h2>Guess the random generated number (1-100).</h2>
+
+            <div class="numberhint" id="numberhint">&nbsp;</div>
+            
+
+            <a onclick="decrease()" id="decrease" class="decrease">-</a>
+            <input name="guess" id="guess" maxlength="3"></input>
+            <a onclick="increase()" id="increase" class="increase">+</a>
+            <div onclick="guess()" class="guessButton" id="guessButton">Guess</div>
+        </div>
+
+        <div class="credit">made with <a style="color: red">❤</a> by <a style="text-decoration: none; color: red;" href="https://shndevdotpy.github.io" target="_blank">shndev</a></div> 
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>

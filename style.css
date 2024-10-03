@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Montserrat", sans-serif; 
+    background-color: #1a1a1a;
+
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+*{transition: 0.2s all;}
+
+.all{
+    width: 610px;
+    height: 310px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.container{
+    background-color: #242424;
+    color: #FFF;
+    width: 600px;
+    height: 400px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 20px;
+    
+}
+
+.container h1{
+    font-size: 30px;
+    padding: 10px;
+    width: max-content;
+    margin: auto;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.container h2{
+    font-size: 17px;
+    padding: 10px;
+    width: 300px;
+    margin: auto;
+    font-weight: normal;
+    text-align: center;
+}
+
+.container input{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 1000px;
+    text-align: center;
+    text-transform: uppercase;
+    background: #2c2c2c;
+    border: 1px solid white;
+    color: #fff;
+    
+}
+
+.container .guessButton{
+    width: max-content;
+    padding: 15px;
+    background-color: rgb(12, 49, 255);
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    margin: auto;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+
+
+.container .numberhint{
+    color: red;
+    text-align: center;
+    padding: 10px;
+}
+
+.container .increase {
+    text-align: center;
+    border-radius: 1000px;
+    padding: 10px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.container .increase:hover{
+    font-weight: bold;
+}
+
+.container .decrease {
+    text-align: center;
+    border-radius: 1000px;
+    padding: 10px;
+    font-weight: normal;
+    cursor: pointer;
+    margin-left: 240px;
+}
+
+.container .decrease:hover{
+    font-weight: bold;
+}
+
+.credit{
+    width: 330px;
+    height: 40px;
+    padding-top: 15px;
+    margin-top: 10%;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.9px);
+    -webkit-backdrop-filter: blur(3.9px);
+    border: 1px solid rgba(255, 255, 255, 0.29);
+    margin-left: 150px;
+}
+
+.credit a:hover{
+    text-shadow: 2px 2px 8px #FF0000;
+}
